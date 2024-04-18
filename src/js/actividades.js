@@ -359,66 +359,91 @@ console.groupEnd();
 
 console.groupCollapsed('Ejercicio 65');
 // Ejercicio 65
+console.log((8 + 10 + 14) / 3);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 66');
 // Ejercicio 66
+let factorial3 = 1;
+for (let i = 2; i <= 8; i++) {
+  factorial3 *= i;
+}
+console.info(factorial3);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 67');
 // Ejercicio 67
+console.info(Math.round(9.2));
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 68');
 // Ejercicio 68
+console.info(18 * 2);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 69');
 // Ejercicio 69
+console.info(7 * 3);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 70');
 // Ejercicio 70
+console.info(Math.pow(10, 2));
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 71');
 // Ejercicio 71
+console.info(Math.pow(5, 3));
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 72');
 // Ejercicio 72
+let suma3 = 0;
+for (let i = 1; i <= 20; i++) {
+  suma3 += i;
+}
+console.info(suma3);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 73');
 // Ejercicio 73
+console.info(200 - 75);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 74');
 // Ejercicio 74
+console.info(9 * 11);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 75');
 // Ejercicio 75
+console.info(300 / 25);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 76');
 // Ejercicio 76
+console.info(30 % 9);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 77');
 // Ejercicio 77
+let numeroAleatorio4 = Math.floor(Math.random() * 11 + 60);
+console.info(numeroAleatorio4);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 78');
 // Ejercicio 78
+console.info(Math.pow(4, 5))
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 79');
 // Ejercicio 79
+console.info(Math.sqrt(196))
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 80');
 // Ejercicio 80
+console.info(120 * (9 / 5) + 32);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 81');
