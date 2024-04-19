@@ -448,64 +448,93 @@ console.groupEnd();
 
 console.groupCollapsed('Ejercicio 81');
 // Ejercicio 81
+baserect3 = 10;
+alturarect3 = 15;
+console.info(baserect2 * alturarect2);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 82');
 // Ejercicio 82
+console.info(2 * Math.PI * 10);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 83');
 // Ejercicio 83
+console.info(6 * 6 * 6);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 84');
 // Ejercicio 84
+console.info((14 * 18) / 2);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 85');
 // Ejercicio 85
+console.info(((10 * 15) / 2) * 8);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 86');
 // Ejercicio 86
+for (i = 0; i <= 10; i + 1) {
+  resultado = 10 * i;
+  console.info(resultado);
+}
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 87');
 // Ejercicio 87
+console.info(Math.max(35,40,45));
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 88');
 // Ejercicio 88
+console.info(Math.min(90,105,120));
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 89');
 // Ejercicio 89
+console.info((9+11+15)/3);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 90');
 // Ejercicio 90
+let factorial4 = 1;
+for (let i = 2; i <= 9; i++) {
+  factorial4 *= i;
+}
+console.info(factorial4);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 91');
 // Ejercicio 91
+console.info(Math.round(10.8));
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 92');
 // Ejercicio 92
+console.info(21*2);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 93');
 // Ejercicio 93
+console.info(8*3);
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 94');
 // Ejercicio 94
+console.info(Math.pow(12,2));
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 95');
 // Ejercicio 95
+console.info(Math.pow(6,3));
 console.groupEnd();
 
 console.groupCollapsed('Ejercicio 96');
 // Ejercicio 96
+let suma4 = 0;
+for (let i = 1; i <= 25; i++) {
+  suma4 += i;
+}
+console.info(suma4);
 console.groupEnd();
